@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int i = 1;
+    char hello[1000];
+    char *input;
+    gets(hello);
+    printf("%d %s", i, hello);
+}
